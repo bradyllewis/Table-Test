@@ -14,13 +14,13 @@
 		888C2F04192157210049C1B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C2F03192157210049C1B3 /* main.m */; };
 		888C2F08192157210049C1B3 /* BLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C2F07192157210049C1B3 /* BLAppDelegate.m */; };
 		888C2F0B192157210049C1B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888C2F09192157210049C1B3 /* Main.storyboard */; };
-		888C2F0E192157210049C1B3 /* BLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C2F0D192157210049C1B3 /* BLViewController.m */; };
 		888C2F10192157210049C1B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888C2F0F192157210049C1B3 /* Images.xcassets */; };
 		888C2F17192157210049C1B3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888C2F16192157210049C1B3 /* XCTest.framework */; };
 		888C2F18192157210049C1B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888C2EF7192157210049C1B3 /* Foundation.framework */; };
 		888C2F19192157210049C1B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888C2EFB192157210049C1B3 /* UIKit.framework */; };
 		888C2F21192157210049C1B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 888C2F1F192157210049C1B3 /* InfoPlist.strings */; };
 		888C2F23192157210049C1B3 /* Table2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C2F22192157210049C1B3 /* Table2Tests.m */; };
+		888C2F2E192157680049C1B3 /* BLNewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C2F2D192157680049C1B3 /* BLNewTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		888C2F06192157210049C1B3 /* BLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLAppDelegate.h; sourceTree = "<group>"; };
 		888C2F07192157210049C1B3 /* BLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLAppDelegate.m; sourceTree = "<group>"; };
 		888C2F0A192157210049C1B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		888C2F0C192157210049C1B3 /* BLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLViewController.h; sourceTree = "<group>"; };
-		888C2F0D192157210049C1B3 /* BLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLViewController.m; sourceTree = "<group>"; };
 		888C2F0F192157210049C1B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		888C2F15192157210049C1B3 /* Table2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Table2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		888C2F16192157210049C1B3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		888C2F1E192157210049C1B3 /* Table2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Table2Tests-Info.plist"; sourceTree = "<group>"; };
 		888C2F20192157210049C1B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		888C2F22192157210049C1B3 /* Table2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Table2Tests.m; sourceTree = "<group>"; };
+		888C2F2C192157680049C1B3 /* BLNewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLNewTableViewController.h; sourceTree = "<group>"; };
+		888C2F2D192157680049C1B3 /* BLNewTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLNewTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +115,9 @@
 				888C2F06192157210049C1B3 /* BLAppDelegate.h */,
 				888C2F07192157210049C1B3 /* BLAppDelegate.m */,
 				888C2F09192157210049C1B3 /* Main.storyboard */,
-				888C2F0C192157210049C1B3 /* BLViewController.h */,
-				888C2F0D192157210049C1B3 /* BLViewController.m */,
 				888C2F0F192157210049C1B3 /* Images.xcassets */,
+				888C2F2C192157680049C1B3 /* BLNewTableViewController.h */,
+				888C2F2D192157680049C1B3 /* BLNewTableViewController.m */,
 				888C2EFE192157210049C1B3 /* Supporting Files */,
 			);
 			path = Table2;
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888C2F0E192157210049C1B3 /* BLViewController.m in Sources */,
 				888C2F08192157210049C1B3 /* BLAppDelegate.m in Sources */,
+				888C2F2E192157680049C1B3 /* BLNewTableViewController.m in Sources */,
 				888C2F04192157210049C1B3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
